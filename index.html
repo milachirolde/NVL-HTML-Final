@@ -145,8 +145,49 @@
 			</table>
 		</section>
 
-		<section>
-			
+		<section id="Contacto" style="padding: 20px 0; background-color:aqua">
+			<h2 style="margin:10px 20px;">Contáctenos</h2>
+			<div style="display:inline-block; width:45%;"> 
+				<form method="POST" action="unservidor.php">
+					<div style="padding:10px 0 10px 20px;">
+						<label for="nombre">Nombre</label>
+						<input id="nombre" type="text" placeholder="Nombre" style="width: 200px;">
+					</div>
+					<div style="padding:10px 0 10px 20px;">
+						<label for="apellido">Apellido</label>
+						<input id="apellido" type="text" style="width: 200px;">
+					</div>
+					<div style="padding:10px 0 10px 20px;">
+						<label for="telefono">Teléfono</label>
+						<input id="telefono" type="number" style="width: 200px;">
+					</div>
+					<div style="padding:10px 0 10px 20px;">
+						<label for="direccion">Dirección</label>
+						<textarea id="direccion" style="width: 200px;"></textarea>
+					</div>
+					<div style="padding:10px 0 10px 20px;">
+						<label for="tipo_servicio">Tipo de Servicio</label>
+						<select id="tipo_servicio" name="tipo_servicio" size="">
+							<option>Guardería</option>
+							<option>Paseo</option>
+						</select>
+					</div>
+					<div style="padding:10px 0 10px 20px;">
+						<label for="tipo_mascota">Tipo de Mascota</label>
+						<input id="tipo_mascota" type="radio" value="perro">Perro
+						<input id="tipo_mascota" type="radio" value="gato">Gato
+						<input id="tipo_mascota" type="radio" value="ambos">Ambos
+						<input id="tipo_mascota" type="radio" value="otro">Otros
+					</div>
+					<div style="padding:10px 0 10px 20px;">
+						<input type="submit" value="Enviar">
+					</div>
+					
+				</form>
+			</div>
+			<div style="display: inline-block; width: 50%;">
+				<img src="https://image.shutterstock.com/image-photo/jack-russell-dog-on-call-260nw-274472411.jpg">
+			</div>
 		</section>
   </div>
 
